@@ -25,5 +25,6 @@ public class CashbackHackServiceTest extends TestCase {
     public void testNineNineNine() {
         CashbackHackService service = new CashbackHackService();
         assertEquals(service.remain(999), 1);
+
     }
 }
